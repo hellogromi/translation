@@ -1,2 +1,2 @@
 # household tax meter
-перевод в СИ
+The program is needed in order to calculate the amount of money to pay household taxes.
