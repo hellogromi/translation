@@ -5,6 +5,7 @@ print("· hot water (hw)")
 print("· cold water (cw)")
 print("· water drain (wd)")
 print("· gas (g)")
+print("· payment for an apartment (f)")
 print("· enter your tariff")
 print("You are 18 years old?")
 b = input("Enter yes or no:", )
@@ -25,6 +26,8 @@ while b != "no":
         print("How much cubic meters have you used up in total?")
     elif sphere == "g":
         print("How much cubic meters gave you used up?")
+    elif sphere == "f":
+        print("What is the area of your apartment?")
     expenses = int(input("enter the expenses:", ))
     if sphere == "e":
         print("you have to pay:", tariff * expenses, "$")
@@ -36,6 +39,8 @@ while b != "no":
         print("you have to pay:", tariff * expenses, "$")
     elif sphere == "g":
         print("you have to pay:", tariff * expenses, "$")
+    elif sphere == "f":
+        print("you have to pay:", tariif * expenses, "$")
     print("Do you want to transfer to another currency?")
     answer = input("enter yes or no:", )
     a = tariff * expenses
